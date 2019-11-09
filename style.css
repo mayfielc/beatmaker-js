@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: lightcoral;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #35fafa;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.pads {
+    background: lightgrey;
+    width: 100%;
+    display: flex;
+}
+
+.pads > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.pad1 {
+    background: #60d394;
+}
+.pad2 {
+    background: #6096d3;
+}
+.pad3 {
+    background: #7960d39d;
+}
+.pad4 {
+    background: #eff166;
+}
+.pad5 {
+    background: #d36060;
+}
+.pad6 {
+    background: #d351d3;
+}
